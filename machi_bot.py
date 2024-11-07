@@ -12,12 +12,12 @@ PHONE_NUMBER = '+51903356436'
 client = TelegramClient('mi_sesion_token', API_ID, API_HASH)
 
 # Lista de usuarios autorizados para consultar el token
-USUARIOS_AUTORIZADOS = ['ABUS1VEDD', 'Asteriscom', 'ChokySupport']  # Agrega más usuarios aquí
+USUARIOS_AUTORIZADOS = ['ABUS1VEDD', 'Asteriscom', 'ChokySupport', 'QH1NK']  # Agrega más usuarios aquí
 
 # Lista de URLs asociadas a cada comando
 URLS = {
-    '/token1': 'http://161.132.49.242:1241/token/private/31742607',
-    '/token2': 'http://161.132.49.242:1241/token/private/31900419'  # Agrega más comandos y URLs aquí
+    '/run': 'http://161.132.49.242:1241/token/private/31742607',
+    '/token': 'http://161.132.49.242:1241/token/private/31900419'  # Agrega más comandos y URLs aquí
 }
 
 # Registro de valores enviados previamente
